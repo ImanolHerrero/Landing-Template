@@ -10,22 +10,22 @@ export const NavMenu = (props: NavigationMenuProps) => (
   <NavigationMenu {...props}>
     <NavigationMenuList className="gap-6 space-x-0 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start">
       <NavigationMenuItem>
-        <NavigationMenuLink asChild className="hover:bg-emerald-200">
+        <NavigationMenuLink asChild className="hover:bg-emerald-50">
           <a href="#">Inicio</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
-        <NavigationMenuLink asChild className="hover:bg-emerald-200">
+        <NavigationMenuLink asChild className="hover:bg-emerald-50">
           <a href="#">Servicios</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
-        <NavigationMenuLink asChild className="hover:bg-emerald-200">
+        <NavigationMenuLink asChild className="hover:bg-emerald-50">
           <a href="#">FAQ</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>
-        <NavigationMenuLink asChild className="hover:bg-emerald-200">
+        <NavigationMenuLink asChild className="hover:bg-emerald-50">
           <a href="#">Contactanos</a>
         </NavigationMenuLink>
       </NavigationMenuItem>
