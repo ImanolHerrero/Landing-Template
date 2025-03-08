@@ -7,38 +7,38 @@ import {
 
 const faq = [
   {
-    question: "What is your return policy?",
+    question: "¿Cuál es su política de devoluciones?",
     answer:
-      "You can return unused items in their original packaging within 30 days for a refund or exchange. Contact support for assistance.",
+      "Puedes devolver plantas o productos sin usar en su empaque original dentro de los 30 días para un reembolso o cambio. Contáctanos para recibir asistencia.",
   },
   {
-    question: "How do I track my order?",
+    question: "¿Cómo puedo rastrear mi pedido?",
     answer:
-      "Track your order using the link provided in your confirmation email, or log into your account to view tracking details.",
+      "Sigue tu pedido a través del enlace proporcionado en tu correo de confirmación o inicia sesión en tu cuenta para ver los detalles del envío.",
   },
   {
-    question: "Do you ship internationally?",
+    question: "¿Realizan envíos internacionales?",
     answer:
-      "Yes, we ship worldwide. Shipping fees and delivery times vary by location, and customs duties may apply for some countries.",
+      "Sí, realizamos envíos a nivel mundial. Los costos y tiempos de entrega varían según la ubicación, y algunos países pueden aplicar impuestos de importación.",
   },
   {
-    question: "What payment methods do you accept?",
+    question: "¿Qué métodos de pago aceptan?",
     answer:
-      "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, and Google Pay, ensuring secure payment options for all customers.",
+      "Aceptamos Visa, MasterCard, American Express, PayPal, Apple Pay y Google Pay, garantizando opciones de pago seguras para todos nuestros clientes.",
   },
   {
-    question: "What if I receive a damaged item?",
+    question: "¿Qué hago si mi planta llega dañada?",
     answer:
-      "Please contact our support team within 48 hours of delivery with photos of the damaged item. We’ll arrange a replacement or refund.",
+      "Si tu planta llega en mal estado, contáctanos dentro de las primeras 48 horas tras la entrega con fotos del producto. Te ofreceremos un reemplazo o reembolso.",
   },
 ];
 
 const FAQ01 = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-12">
-      <div className="max-w-xl">
+    <div className="min-h-screen flex items-center justify-center px-6 py-12 bg-emerald-900 text-emerald-50">
+      <div className="max-w-2xl">
         <h2 className="text-4xl md:text-5xl !leading-[1.15] font-bold tracking-tight">
-          Questions & Answers
+          Preguntas frecuentes
         </h2>
 
         <Accordion type="single" className="mt-6" defaultValue="question-0">
