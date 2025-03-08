@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, CirclePlay } from "lucide-react";
-import heroImage from "@/assets/img1.jpg";
+import heroImage from "@/assets/img1.webp";
 
 const Hero02 = () => {
   return (
