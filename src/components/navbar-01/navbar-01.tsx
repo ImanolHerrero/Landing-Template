@@ -14,7 +14,9 @@ const Navbar01Page = () => {
           <NavMenu className="hidden md:block" />
 
           <div className="flex items-center gap-3">
-            <Button className="">Contactar ahora</Button>
+            <Button className="bg-gradient-to-r from-emerald-500 to-emerald-800 cursor-pointer">
+              Contactar ahora
+            </Button>
 
             {/* Mobile Menu */}
             <div className="md:hidden">
